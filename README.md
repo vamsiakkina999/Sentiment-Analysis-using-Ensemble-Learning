@@ -168,7 +168,17 @@ sentiment-analysis-ensemble/
 
 ## Quickstart & Installation
 
-### 1. Backend Setup
+### Option A: One-Command Start (Both Backend & Frontend)
+
+From the project root:
+```bash
+npm run dev:all
+```
+This runs both the FastAPI backend (`http://localhost:8000`) and the Vite frontend (`http://localhost:5173`) concurrently in a single terminal.
+
+---
+
+### Option B: Separate Terminals
 
 ```bash
 # Navigate to workspace root

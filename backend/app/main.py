@@ -23,11 +23,11 @@ async def lifespan(app: FastAPI):
     loaded = prediction_engine.load_artifacts()
     if loaded:
         logger.info("Loaded Artifacts:")
-        logger.info("  ✓ TF-IDF Vectorizer")
-        logger.info("  ✓ Logistic Regression")
-        logger.info("  ✓ Random Forest")
-        logger.info("  ✓ AdaBoost")
-        logger.info("  ✓ Model Metadata")
+        logger.info("  [+] TF-IDF Vectorizer")
+        logger.info("  [+] Logistic Regression")
+        logger.info("  [+] Random Forest")
+        logger.info("  [+] AdaBoost")
+        logger.info("  [+] Model Metadata")
         logger.info(f"  Selected Model: {prediction_engine.selected_model_name}")
     else:
         logger.info("No pre-trained model artifacts found on startup. Models must be trained via API or training script.")

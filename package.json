@@ -1,0 +1,12 @@
+{
+  "name": "sentiment-analysis-using-ensemble-learning",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sentiment Analysis using Ensemble Learning",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev:all",
+    "dev:all": "npm --prefix frontend run dev:all",
+    "dev:backend": "npm --prefix frontend run dev:backend",
+    "dev:frontend": "npm --prefix frontend run dev"
+  }
+}
